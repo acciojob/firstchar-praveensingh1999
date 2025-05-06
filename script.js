@@ -1,5 +1,8 @@
 function firstChar(text) {
   // your code here
+	if(text.length==0){
+		return " ";
+	}
   return text[0];
 	
 }

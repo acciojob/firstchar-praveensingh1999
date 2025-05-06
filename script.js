@@ -1,9 +1,10 @@
 function firstChar(text) {
+	let str = text.toString();
   // your code here
-	if(text.length==0){
+	if(str.length==0){
 		return " ";
 	}
-  return text[0];
+  return str[0];
 	
 }
 
